@@ -1,0 +1,46 @@
+---
+	import Nav from "../components/Nav.astro"
+	import Carrusel from "../components/Carrusel.astro"
+	import Banner from "../components/Banner.astro"
+	import Vidae from "../components/Vidae.astro"
+	import Instvin from "../components/Instvin.astro"
+	import Event from "../components/Event.astro"
+	import Footer from "../components/Footer.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Nav></Nav>
+
+		<Carrusel src="https://fcytcdelu.uader.edu.ar/sites/default/files/styles/eyr1210x472/public/2024-02/slide%20convocatoria%20alumnos%20auxiliares.jpg?itok=e6RR0rRa"/>
+
+		<Carrusel src="https://fcytcdelu.uader.edu.ar/sites/default/files/2024-02/ingreso%202024%20intensivo%20slide%20fijo.jpg" />
+
+		<Banner/>
+
+		<Vidae/>
+
+		<Event/>
+
+		<Footer/>
+	</body>
+</html>
+
+
+
+<style>
+	body{
+		margin: 0 auto;
+		padding: 0;
+		background-color: rgb(198, 212, 211);
+	}
+
+	
+</style>
